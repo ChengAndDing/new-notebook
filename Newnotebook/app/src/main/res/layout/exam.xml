@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/exam_eng_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.001"
+        android:text="English Word"
+        android:textAlignment="center"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/exam_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Corresponding French word:"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/exam_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="French word A"
+        android:textAlignment="center"
+        android:textSize="31dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/exam_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="French word B"
+        android:textAlignment="center"
+        android:textSize="31dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/exam_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="French word C"
+        android:textAlignment="center"
+        android:textSize="31dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/exam_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="French word D"
+        android:textAlignment="center"
+        android:textSize="31dp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/exam_result"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Result"
+        android:textColor="#ff5722"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exam_next_word"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Next WORD"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
